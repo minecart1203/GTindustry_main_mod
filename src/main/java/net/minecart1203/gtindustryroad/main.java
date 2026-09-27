@@ -1,4 +1,4 @@
-package net.firset.testmod;
+package net.minecart1203.gtindustryroad;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -19,15 +19,15 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TestModF1rset.MOD_ID)
-public class TestModF1rset {
+@Mod(main.MOD_ID)
+public class main {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "testmodf1rset";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public TestModF1rset()
+    public main()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
